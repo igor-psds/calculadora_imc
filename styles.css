@@ -49,8 +49,12 @@
 }
 
 label {
+    display: inline-block;
+    width: 80px;
+    text-align: center;
     font-family: 'Roboto Mono', monospace;
     font-size: 17px;
+    font-weight: bold;
 }
 
 input {
@@ -61,11 +65,12 @@ input {
 #button {
     width: 125px;
     height: 35px;
-    border-radius: 5px;
+    border-radius: 10px;
     font-family: 'Roboto Mono', monospace;
     font-size: 15px;
+    font-weight: bold;
     cursor: pointer;
-    background-color: rgb(117, 116, 116);
+    background-color: rgb(173, 173, 173);
 }
 
 #button:hover {
